@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block title %}최신 뉴스 요약{% endblock %}
+
+{% block content %}
+<div class="today">{{ now }}</div>
+
+<!-- 뉴스 카드 리스트 -->
+<div class="news-list">
+    {% for news in news_list %}
+        <div class="news-card">
+            <a href="{{ news.url }}" class="news-title" target="_blank">{{ news.title }}</a>
+            <p class="news-summary">{{ news.summary }}</p>
+        </div>
+    {% endfor %}
+</div>
+{% endblock %}
