@@ -83,7 +83,7 @@ python -m pip install openai
 ### 서버 실행(터미널 열고)
 
 ```python
-python [app.py](http://app.py/)
+python app.py
 ```
 
 ### 브라우저 열고
