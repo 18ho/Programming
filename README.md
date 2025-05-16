@@ -71,9 +71,9 @@ python -m pip install openai
 
 ```python
 /프로젝트
-├── [app.py](http://app.py/)
-├── [news.py](http://news.py/)
-├── [summarizer.py](http://summarizer.py/)
+├── [app.py]
+├── [news.py]
+├── [summarizer.py]
 ├── .env
 └── templates/ << 폴더임
 		├── base.html
