@@ -16,6 +16,20 @@
 python --version
 ```
 
+### 위에꺼 했는데 Python만 뜨면 cmd창에
+```
+where python 
+```
+### 아무것도 안나오면 PATH 문제인듯 (재설치)
+https://www.python.org/downloads/
+### 설치 시 반드시 "Add Python to PATH" 체크하고 설치
+
+### 설치 확인
+```python
+python --version
+py --version
+```
+
 ### pip 설치돼있는지 확인
 
 ```python
