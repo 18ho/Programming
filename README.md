@@ -14,6 +14,8 @@
 
 ```python
 python --version
+또는
+py --version
 ```
 
 ### 위에꺼 했는데 Python만 뜨면 cmd창에
