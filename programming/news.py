@@ -13,7 +13,7 @@ def get_news_from_api():
         'apiKey': NEWS_API_KEY,
         'language': 'ko',        # 한국어 뉴스만 가져오기
         'sortBy': 'publishedAt', # 최신순 정렬
-        'pageSize': 10,          # 최대 10개 기사 가져오기
+        'pageSize': 30,          # 최대 30개 기사 가져오기
         'q': '뉴스'              # 키워드: 뉴스
     }
     response = requests.get(url, params=params)
