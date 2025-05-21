@@ -34,30 +34,40 @@ py --version
 
 ```python
 python -m pip --version
+
+py -m pip --version
 ```
 
 ### 안뜨면
 
 ```python
 curl https://bootstrap.pypa.io/get-pip.py -o [get-pip.py](http://get-pip.py/)
+
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 ```
 
 ### 다운받은 get-pip.py를 실행해서 pip 설치
 
 ```python
 python [get-pip.py](http://get-pip.py/)
+
+py get-pip.py
 ```
 
 ### pip 설치 확인
 
 ```python
 python -m pip --version
+
+py -m pip --version
 ```
 
 ### 필요한 패키지 설치(httpx는 비동기 요청용)
 
 ```python
 python -m pip install Flask openai requests python-dotenv httpx
+
+py -m pip install Flask openai requests python-dotenv httpx
 ```
 
 ### .env 파일 만들기(프로젝트 폴더에)
@@ -79,6 +89,8 @@ https://newsapi.org/register
 
 ```python
 python -m pip install openai
+
+py -m pip install openai
 ```
 
 ### 프로젝트 폴더 구조
@@ -98,6 +110,8 @@ python -m pip install openai
 
 ```python
 python app.py
+
+py app.py
 ```
 
 ### 브라우저 열고
