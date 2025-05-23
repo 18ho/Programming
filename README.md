@@ -14,11 +14,11 @@
 
 ```python
 python --version
-또는
+# 또는
 py --version
 ```
 
-### 위에꺼 했는데 Python만 뜨면 cmd창에
+### Python이라는 단어만 뜨고 버전이 표시되지 않으면
 ```
 where python 
 ```
@@ -36,23 +36,16 @@ py --version
 
 ```python
 python -m pip --version
-
+# 또는
 py -m pip --version
 ```
 
-### 안뜨면
+### pip이 설치되어 있지 않다면
 
 ```python
-curl https://bootstrap.pypa.io/get-pip.py -o [get-pip.py](http://get-pip.py/)
-
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-```
-
-### 다운받은 get-pip.py를 실행해서 pip 설치
-
-```python
-python [get-pip.py](http://get-pip.py/)
-
+python get-pip.py
+# 또는
 py get-pip.py
 ```
 
@@ -60,7 +53,7 @@ py get-pip.py
 
 ```python
 python -m pip --version
-
+# 또는
 py -m pip --version
 ```
 
@@ -68,7 +61,7 @@ py -m pip --version
 
 ```python
 python -m pip install Flask openai requests python-dotenv httpx
-
+# 또는
 py -m pip install Flask openai requests python-dotenv httpx
 ```
 
@@ -79,7 +72,7 @@ OPENAI_API_KEY=발급받은_키
 NEWSAPI_API_KEY=발급받은_뉴스_API_키
 ```
 
-Openai Api키 발급(카드 등록하고 1회 결제해야 사용할 수 있음)
+Openai Api키 발급(카드 등록 필요)
 
 https://platform.openai.com/api-keys
 
@@ -87,11 +80,11 @@ NewsAPI 키 발급
 
 https://newsapi.org/register
 
-### openai 라이브러리
+### openai 라이브러리 (위에서 했으면 필요X)
 
 ```python
 python -m pip install openai
-
+# 또는
 py -m pip install openai
 ```
 
@@ -103,6 +96,8 @@ py -m pip install openai
 ├── [news.py]
 ├── [summarizer.py]
 ├── .env
+├── static/ << 폴더임
+│   └── style.css
 └── templates/ << 폴더임
 		├── base.html
 		└── index.html
