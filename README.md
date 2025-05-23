@@ -1,4 +1,8 @@
-# 프로그래밍 입문
+![header](https://capsule-render.vercel.app/api?color=FFA38B&text=프로그래밍%20입문&type=cylinder&fontColor=FFFFFF)
+
+<br>
+
+# 뉴스 요약 웹 서비스
 
 ## 4팀
 
@@ -6,7 +10,7 @@
 
 <br><br><br><br>
 
-# 뉴스 요약 웹 서비스
+
 
 ### VSCode 터미널 열고
 
