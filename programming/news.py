@@ -17,6 +17,7 @@ def get_news_from_api():
     }
 
     response = requests.get(url, params=params)
+    # 서버 응답 코드가 정상일 경우 200임
     if response.status_code != 200:
         print("뉴스 API 오류:", response.text)
         return []
